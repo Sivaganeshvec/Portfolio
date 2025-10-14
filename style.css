@@ -23,7 +23,7 @@ header {
   background: #000;
   color: #00bcd4;
   padding: 15px 0;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 1000;
 }
@@ -69,7 +69,7 @@ nav ul li a:hover {
   position: relative;
   overflow: hidden;
   text-align: center;
-  padding: 150px 0; /* enough height for particles */
+  padding: 100px 0; /* enough height for particles */
   width: 100%; /* full width of browser */
   background: linear-gradient(to bottom right, #617592, #020c1bf1);
 }
@@ -118,6 +118,11 @@ nav ul li a:hover {
   color: #a8f0ff;
 }
 
+
+
+
+
+
 /* Button */
 .btn {
   display: inline-block;
@@ -135,8 +140,16 @@ nav ul li a:hover {
 .btn:hover {
   background: #0097a7;
   color: #fff;
-  box-shadow: 0 0 20px #00bcd4, 0 0 40px #00bcd4;
 }
+
+.btn-resume {
+  display: block;             
+  width: max-content;         
+  padding: 12px 25px;         
+  margin: 15px auto 0;        
+}
+
+
 
 /* Sections */
 .section {
@@ -213,6 +226,22 @@ h2 {
   color: #00bcd4;
   margin-bottom: 10px;
 }
+
+/* Remove default link colors */
+.project-card-link,
+.project-card-link * {
+  color: #00bcd4;            /* all text inside stays blue */
+  text-decoration: none;      /* remove underline */
+}
+
+.project-card-link:hover,
+.project-card-link:hover * {
+  color: #00ffff;             /* optional: change text on hover */
+}
+
+
+
+
 
 /* Contact */
 .contact ul {
