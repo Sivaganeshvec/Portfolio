@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Generate floating particles for hero background
   const heroBg = document.querySelector('.hero-bg');
-  for (let i = 0; i < 50; i++) { // more particles
+  for (let i = 0; i < 50; i++) {
     const span = document.createElement('span');
     span.style.left = Math.random() * 100 + '%';
     span.style.top = Math.random() * 100 + '%';

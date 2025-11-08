@@ -6,6 +6,10 @@
   <title>Sivaganesh S | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Devicon CDN for programming language icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 </head>
 <body>
   <!-- Navbar -->
@@ -30,7 +34,6 @@
       <p style="font-size: 25px;"> FRESHER</p>
       <a href="#projects" class="btn">View My Work</a>
       <a href="https://drive.google.com/drive/u/0/folders/1GSPYEBkN8Pxs-1ucxRi3ae18LCyvrPTN" target="_blank" class="btn btn-resume">Download Resume</a>
-
     </div>
   </section>
 
@@ -39,7 +42,7 @@
     <div class="container">
       <h2>About Me</h2>
       <p>
-          A self-motivated and hardworking fresher eager to contribute to real-world projects while continuously learning and enhancing technical skills. Passionate about gaining hands-on experience, adapting to new technologies, and delivering efficient, high-quality solutions in any professional environment.
+        A self-motivated and hardworking fresher eager to contribute to real-world projects while continuously learning and enhancing technical skills. Passionate about gaining hands-on experience, adapting to new technologies, and delivering efficient, high-quality solutions in any professional environment.
       </p>
     </div>
   </section>
@@ -49,13 +52,14 @@
     <div class="container">
       <h2>Technical Skills</h2>
       <div class="skills-grid">
-        <div class="skill">Python</div>
-        <div class="skill">C</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">SQL</div>
-      </div>
+  <div class="skill" data-tooltip="Python"><i class="devicon-python-plain colored"></i></div>
+  <div class="skill" data-tooltip="C"><i class="devicon-c-plain colored"></i></div>
+  <div class="skill" data-tooltip="HTML"><i class="devicon-html5-plain colored"></i></div>
+  <div class="skill" data-tooltip="CSS"><i class="devicon-css3-plain colored"></i></div>
+  <div class="skill" data-tooltip="JavaScript"><i class="devicon-javascript-plain colored"></i></div>
+  <div class="skill" data-tooltip="SQL"><i class="devicon-mysql-plain colored"></i></div>
+</div>
+
     </div>
   </section>
 
@@ -65,19 +69,18 @@
       <h2>Projects</h2>
       <div class="projects-grid">
         <a href="https://github.com/Sivaganeshvec/Final_year_project" target="_blank" class="project-card-link">
-  <div class="project-card">
-    <h3>Detection of Cardiovascular Disease</h3>
-    <p>Developed a machine learning model to predict cardiovascular diseases by analyzing ECG images, enabling faster, automated, and accurate diagnosis for early detection and prevention.</p>
-  </div>
-</a>
+          <div class="project-card">
+            <h3>Detection of Cardiovascular Disease</h3>
+            <p>Developed a machine learning model to predict cardiovascular diseases by analyzing ECG images, enabling faster, automated, and accurate diagnosis for early detection and prevention.</p>
+          </div>
+        </a>
 
-<a href="https://github.com/aakash-2605/Mini-Project" target="_blank" class="project-card-link">
-  <div class="project-card">
-    <h3>Diabetes Detection System</h3>
-    <p>Random Forest-based prediction system built using Django Framework for healthcare analysis.</p>
-  </div>
-</a>
-
+        <a href="https://github.com/aakash-2605/Mini-Project" target="_blank" class="project-card-link">
+          <div class="project-card">
+            <h3>Diabetes Detection System</h3>
+            <p>Random Forest-based prediction system built using Django Framework for healthcare analysis.</p>
+          </div>
+        </a>
       </div>
     </div>
   </section>
